@@ -51,7 +51,7 @@ pipeline {
                                 mv Deployment/deploy.yaml Deployment/deploy.yaml.tmp
                                 cat Deployment/deploy.yaml.tmp | envsubst > Deployment/deploy.yaml
                                 rm -f Deployment/deploy.yaml.tmp
-                                kubectl create namespace app
+                                kubectl create namespace app 2>/dev/null
                                 kubectl apply -f Deployment --kubeconfig ${KUBECONFIG_ITI} -n app
                              '''
                         }
