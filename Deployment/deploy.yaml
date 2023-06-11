@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: hello_app
-  name: hello_app
+    app: helloapp
+  name: helloapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello_app
+      app: helloapp
   template:
     metadata:
       labels:
-        app: hello_app
+        app: helloapp
     spec:
       containers:
       - image: mariamkasssab/iti_project:v${BUILD_NUMBER}
-        name: hello_app
+        name: helloapp
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
