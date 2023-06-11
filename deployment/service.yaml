@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: myservice
+  name: myservice
+spec:
+  ports:
+  - name: bakehouseport
+    port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: hello_app
+  type: LoadBalancer
+status:
+  loadBalancer: {}
