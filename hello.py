@@ -12,17 +12,26 @@ def hello():
                 body {
                     background-color: lightblue;
                 }
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
                 h1 {
-                    color: red;
+                    color: blue;
                 }
                 p {
-                    color: green;
+                    color: blue;
                 }
             </style>
         </head>
         <body>
-            <h1>Hello World, We are the Itian!</h1>
-            <p>This is a colored paragraph.</p>
+            <div class="container">
+                <h1>Hello World, We are the Itian! &#127881;</h1>
+                <p>always Proud. &#127881;&#127882;</p>
+            </div>
         </body>
         </html>
     '''
