@@ -6,7 +6,7 @@ metadata:
   name: myservice
 spec:
   ports:
-  - name: bakehouseport
+  - name: helloport
     port: 5000
     protocol: TCP
     targetPort: 5000
