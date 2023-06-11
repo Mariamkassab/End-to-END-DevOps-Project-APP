@@ -11,7 +11,7 @@ spec:
     protocol: TCP
     targetPort: 5000
   selector:
-    app: hello_app
+    app: helloapp
   type: LoadBalancer
 status:
   loadBalancer: {}
