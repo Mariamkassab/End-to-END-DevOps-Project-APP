@@ -21,16 +21,18 @@ def hello():
                 }
                 h1 {
                     color: blue;
+                    font-size: 40px;  /* Increase font size here */
                 }
                 p {
                     color: blue;
+                    font-size: 28px;  /* Increase font size here */
                 }
             </style>
         </head>
         <body>
             <div class="container">
-                <h1>Hello World, We are the Itian! &#127881;</h1>
-                <p>always Proud. &#127881;&#127882;</p>
+                <h1>Hello World, We are the Itians! &#127881;</h1>
+                <p>Always Proud &#127881;&#127882;</p>
             </div>
         </body>
         </html>
