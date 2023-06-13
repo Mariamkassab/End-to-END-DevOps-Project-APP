@@ -40,7 +40,7 @@ gcloud auth login
 gcloud container clusters get-credentials <cluster_name> --zone <zone> --project <project_name>
 ```
 ---
-## create jenkins slvee image will all its dependances:
+## Create jenkins slave image with all its dependances:
 
 * on dockerhub   ```  mariamkasssab/jenkins_slave:v3  ```
 
