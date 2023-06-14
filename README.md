@@ -15,7 +15,7 @@
 * Service Account 
 * private-bastion wuth its automation file
 ---
-![Cloud Architecture - Page 1 (1)](https://github.com/Mariamkassab/ITI-Final-project-APP/assets/123699968/422deaf0-707e-4a43-bf3e-af154a1356c5)
+![Cloud Architecture - Page 1 (3)](https://github.com/Mariamkassab/ITI-Final-project-APP/assets/123699968/9ac6fdb1-3458-49d0-8da0-0a52b41fabc6)
 
 ---
 
