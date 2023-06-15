@@ -26,7 +26,7 @@ pipeline {
                      }
                     }
                     else {
-                        echo "user choosed ${params.BRANCH_NAME}"
+                        echo "user choosed ${params.ENV}"
                     }
 
                 }
