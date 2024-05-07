@@ -1,4 +1,4 @@
-# End-to-END-DevOps-Project-APP:
+# End-to-End-DevOps-Project-APP:
 
 * The project is about creating a private cluster and deploy Jenkins, and deploy as app using Jenkins pipeline.
 * I used google cloud provider,created the infra using Terraform, and deployed Jenkins on the GKE using Ansible.
